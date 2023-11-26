@@ -1,6 +1,6 @@
 # `cv.typ` Example Setup
 
-This is an example setup for the `cv.typ` template. This repository shows how to use the template to easily create a CV and multiple resumes with easily maintainable content, consistent formatting, and minimal effort. All one has to do is to input the data in the YAML files, and the template will take care of the rest.
+This is an example setup for the `cv.typ` template. This repository shows how to use the template to easily create a CV and multiple résumés with easily maintainable content, consistent formatting, and minimal effort. All one has to do is to input the data in the YAML files, and the template will take care of the rest.
 
 The data for each CV/résumé iteration is stored in a separate YAML file, and the template is written in [Typst], a modern alternative typestting language to $\LaTeX$.
 
