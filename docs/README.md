@@ -2,7 +2,7 @@
 
 This is an example setup for the [`cv.typ` template in Typst](https://github.com/jskherman/cv.typ). This repository shows how to use the template to easily create a CV and multiple résumés with easily maintainable content, consistent formatting, and minimal effort. All one has to do is to input the data in the YAML files, and the template will take care of the rest.
 
-The data for each CV/résumé iteration is stored in a separate YAML file, and the template is written in [Typst], a modern alternative typestting language to $\LaTeX$.
+The data for each CV/résumé iteration is stored in a separate YAML file, and the template is written in [Typst](https://github.com/typst/typst), a modern alternative typestting language to $\LaTeX$.
 
 ## Installation
 
@@ -12,6 +12,7 @@ The data for each CV/résumé iteration is stored in a separate YAML file, and t
   - **Windows**: Download the `.exe` binary from the latest release in the [releases page](https://github.com/typst/typst/releases/download/latest/typst-x86_64-pc-windows-msvc.zip) or install ut using `winget`: `winget install --id Typst.Typst`.
   - **macOS**: Download it from the latest release in the [releases page](https://github.com/typst/typst/releases) or install it using [Homebrew]: `brew install typst`.
   - **Linux**: Download it from the latest release in the [releases page](https://github.com/typst/typst/releases) or install it using [Cargo]: `cargo install --git https://github.com/typst/typst`.
+  - **GitHub Codespace**: [Typst-LSP](https://github.com/nvarner/typst-lsp) extension for syntax highlighting and preview.
 - Optional:
   - This is for the GitHub Actions workflow for automatically compiling the CV and
     résumés PDF and uploading them to Cloudflare R2 for easy URL access.
