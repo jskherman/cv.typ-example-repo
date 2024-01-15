@@ -10,8 +10,8 @@ The data for each CV/résumé iteration is stored in a separate YAML file, and t
 
 - [Typst](https://github.com/typst/typst) is installed and available in the `PATH`.
   - **Windows**: Download the `.exe` binary from the latest release in the [releases page](https://github.com/typst/typst/releases/download/latest/typst-x86_64-pc-windows-msvc.zip) or install ut using `winget`: `winget install --id Typst.Typst`.
-  - **macOS**: Download it from the latest release in the [releases page](https://github.com/typst/typst/releases) or install it using [Homebrew]: `brew install typst`.
-  - **Linux**: Download it from the latest release in the [releases page](https://github.com/typst/typst/releases) or install it using [Cargo]: `cargo install --git https://github.com/typst/typst`.
+  - **macOS**: Download it from the latest release in the [releases page](https://github.com/typst/typst/releases) or install it using [Homebrew](https://brew.sh): `brew install typst`.
+  - **Linux**: Download it from the latest release in the [releases page](https://github.com/typst/typst/releases) or install it using [Cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html): `cargo install --git https://github.com/typst/typst`.
   - **GitHub Codespace**: [Typst-LSP](https://github.com/nvarner/typst-lsp) extension for syntax highlighting and preview. Install Typst (e.g. using Cargo, Homebrew, or from Typst's releases page) if you want to compile the Typst files via the terminal.
 - Optional:
   - This is for the GitHub Actions workflow for automatically compiling the CV and
