@@ -39,4 +39,4 @@ To compile all the `*.typ` files in the root of the repository, use the `make al
 The repository is setup with a GitHub Actions workflow that automatically compiles the Typst files and uploads them to Cloudflare R2 (S3-compatible storage). The workflow is triggered manually by default, but can be configured to run on every push to the repository.
 
 <!-- Footnotes -->
-[^1]: Run this if the `template` is not there yet. This will initialize the `template` submodule.
+[^1]: Run this if the `template` folder is not there yet. This will initialize the `template` submodule.
