@@ -12,7 +12,7 @@ The data for each CV/résumé iteration is stored in a separate YAML file, and t
   - **Windows**: Download the `.exe` binary from the latest release in the [releases page](https://github.com/typst/typst/releases/download/latest/typst-x86_64-pc-windows-msvc.zip) or install ut using `winget`: `winget install --id Typst.Typst`.
   - **macOS**: Download it from the latest release in the [releases page](https://github.com/typst/typst/releases) or install it using [Homebrew]: `brew install typst`.
   - **Linux**: Download it from the latest release in the [releases page](https://github.com/typst/typst/releases) or install it using [Cargo]: `cargo install --git https://github.com/typst/typst`.
-  - **GitHub Codespace**: [Typst-LSP](https://github.com/nvarner/typst-lsp) extension for syntax highlighting and preview.
+  - **GitHub Codespace**: [Typst-LSP](https://github.com/nvarner/typst-lsp) extension for syntax highlighting and preview. Install Typst (e.g. using Cargo, Homebrew, or from Typst's releases page) if you want to compile the Typst files via the terminal.
 - Optional:
   - This is for the GitHub Actions workflow for automatically compiling the CV and
     résumés PDF and uploading them to Cloudflare R2 for easy URL access.
@@ -22,8 +22,9 @@ The data for each CV/résumé iteration is stored in a separate YAML file, and t
 ### Setup
 
 1. Fork and clone this repository. Initialize the repository if you are not cloning it.
-2. Run `make setup` to setup the repository. This will initialize the `template` submodule.
+2. Run `make setup` to setup the repository.[^1]
 3. And you are done! You can now start editing the Typst and YAML files to create your CV and résumés.
+4. Run `make all` to have Typst compile all the files to PDF and save them in the `docs` directory.
 
 ## Usage
 
@@ -36,3 +37,6 @@ To compile all the `*.typ` files in the root of the repository, use the `make al
 ### GitHub Actions
 
 The repository is setup with a GitHub Actions workflow that automatically compiles the Typst files and uploads them to Cloudflare R2 (S3-compatible storage). The workflow is triggered manually by default, but can be configured to run on every push to the repository.
+
+<!-- Footnotes -->
+[^1]: Run this if the `template` is not there yet. This will initialize the `template` submodule.
